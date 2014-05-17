@@ -1,0 +1,36 @@
+
+// Contact 
+
+.contact {
+  background-color: $black;
+  @include bp(baby-bear) {
+    background-image: url(../../../images/contact.jpg);
+    background-size: 100% 100%;
+  }
+  
+  .info {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    @include bp(baby-bear) {
+    width: 60%;
+    }
+    @include bp(mama-bear) {
+      width: 40%;
+    }
+    max-width: 40em;
+    background-color: rgba(white, 0.5);
+    padding: 1em 1.6em;
+    h1 {
+      margin: 0;
+    }
+    a {
+      color: white;
+      font-size: 1.3em;
+      display: block;
+      padding: 0.5em 0;
+    }
+  }
+}

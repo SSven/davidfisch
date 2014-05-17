@@ -1,0 +1,38 @@
+$black: #222222;
+$green: #29C87C;
+$yellow: #FDED01;
+$red: #FF4136;
+$olive: #3D9970;
+$lime: #01FF70;
+$blue: #0074D9;
+$grey: #cccccc;
+$white: #ffffff;
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+@mixin bp($point) {
+  @if $point == papa-bear {
+    @media (min-width: 1200px) { @content; }
+  }
+  @else if $point == mama-bear {
+    @media (min-width: 1000px) { @content; }
+  }
+  @else if $point == reverse-mama-bear {
+    @media (max-width: 999px) { @content; }
+  }
+  @else if $point == baby-bear {
+    @media (min-width: 650px)  { @content; }
+  }
+  @else if $point == only-baby-bear {
+    @media (min-width: 650px) and (max-width: 999px)  { @content; }
+  }
+}

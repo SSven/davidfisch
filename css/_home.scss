@@ -1,0 +1,44 @@
+// Home
+.home {
+  section {
+    background-image: url(../../images/background.jpg);
+    background-size: cover;
+  }
+  .cite-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -55%);
+    width: 80%;
+    color: #ffffff;
+    @include bp(baby-bear) {
+    	width: 60%;
+    }
+    @include bp(mama-bear) {
+    	width: 40%;
+    }
+    max-width: 40em;
+    height: 50%;
+  }
+
+  .more-button {
+    position: absolute;
+    left: 50%;
+    bottom: 3em;
+    color: #ffffff;
+    border-radius: 3em;
+    font-size: 2em;
+    background-color: rgba($red, 0.8);
+    padding: 0.3em 1em;
+    transform: translate(-50%);
+    text-decoration: none;
+    &:hover, &:focus {
+      background-color: $red;
+    }
+  }
+
+  footer {
+    display: none;
+  }
+
+}
