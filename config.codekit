@@ -262,7 +262,7 @@
 		"outputAbbreviatedPath": "\/images\/4201035200_70d98083ff_b.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/42H.jpg": {
 		"fileType": 16384,
@@ -273,7 +273,18 @@
 		"outputAbbreviatedPath": "\/images\/42H.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/42H_small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14655,
+		"inputAbbreviatedPath": "\/images\/42H_small.jpg",
+		"outputAbbreviatedPath": "\/images\/42H_small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/background.jpg": {
 		"fileType": 16384,
@@ -284,7 +295,7 @@
 		"outputAbbreviatedPath": "\/images\/background.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/music.jpg": {
 		"fileType": 16384,
@@ -295,7 +306,18 @@
 		"outputAbbreviatedPath": "\/images\/music.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/music_small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6996,
+		"inputAbbreviatedPath": "\/images\/music_small.jpg",
+		"outputAbbreviatedPath": "\/images\/music_small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/picjumbo.com_IMG_3212.jpg": {
 		"fileType": 16384,
@@ -306,7 +328,7 @@
 		"outputAbbreviatedPath": "\/images\/picjumbo.com_IMG_3212.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.php": {
 		"fileType": 8192,
