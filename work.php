@@ -11,14 +11,14 @@
   </ul>
   <div class="grid">
     <a href="work-single.php" class="module">
-      <img src="/images/music_small.jpg" alt="">
+      <img src="images/music_small.jpg" alt="">
       <div class="content">
         <h2>Peter Maxens</h2>
         <p>Berlins most experienced DJ</p>
       </div>
     </a>
     <a href="work-single.php" class="module">
-      <img src="/images/42H_small.jpg" alt="">
+      <img src="images/42H_small.jpg" alt="">
       <div class="content">
         <h2>Hotel Miss Universe</h2>
         <p>Make things possible</p>

@@ -1866,37 +1866,47 @@ img {
 .home section {
   background-image: url(../../images/background.jpg);
   -webkit-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  background-position: bottom center; }
 .home .cite-center {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -55%);
-  -ms-transform: translate(-50%, -55%);
-  transform: translate(-50%, -55%);
+  position: relative;
+  top: 6em;
   width: 80%;
+  margin: 0 auto;
   color: #ffffff;
   max-width: 40em;
   height: 50%; }
   @media (min-width: 650px) {
     .home .cite-center {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -55%);
+      -ms-transform: translate(-50%, -55%);
+      transform: translate(-50%, -55%);
       width: 60%; } }
   @media (min-width: 1000px) {
     .home .cite-center {
       width: 40%; } }
+  .home .cite-center h1 {
+    margin: 0; }
 .home .more-button {
   position: absolute;
-  left: 50%;
-  bottom: 3em;
+  bottom: 0.5em;
+  left: 1.6em;
   color: #ffffff;
   border-radius: 3em;
   font-size: 2em;
   background-color: rgba(255, 65, 54, 0.8);
   padding: 0.3em 1em;
-  -webkit-transform: translate(-50%);
-  -ms-transform: translate(-50%);
-  transform: translate(-50%);
   text-decoration: none; }
+  @media (min-width: 650px) {
+    .home .more-button {
+      left: 50%;
+      -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+      transform: translate(-50%);
+      bottom: 3em; } }
   .home .more-button:hover, .home .more-button:focus {
     background-color: #ff4136; }
 .home footer {

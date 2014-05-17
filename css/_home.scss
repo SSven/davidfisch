@@ -3,15 +3,19 @@
   section {
     background-image: url(../../images/background.jpg);
     background-size: cover;
+    background-position: bottom center;
   }
   .cite-center {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -55%);
+    position: relative;
+    top: 6em;
     width: 80%;
+    margin: 0 auto;
     color: #ffffff;
     @include bp(baby-bear) {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -55%);
     	width: 60%;
     }
     @include bp(mama-bear) {
@@ -19,18 +23,26 @@
     }
     max-width: 40em;
     height: 50%;
+    h1 {
+      margin: 0;
+    }
   }
 
   .more-button {
     position: absolute;
-    left: 50%;
-    bottom: 3em;
+    bottom: 0.5em;
+    left: 1.6em;
+    @include bp(baby-bear) {
+      left: 50%;
+      transform: translate(-50%);
+      bottom: 3em;
+    }
+
     color: #ffffff;
     border-radius: 3em;
     font-size: 2em;
     background-color: rgba($red, 0.8);
     padding: 0.3em 1em;
-    transform: translate(-50%);
     text-decoration: none;
     &:hover, &:focus {
       background-color: $red;
