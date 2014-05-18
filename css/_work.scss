@@ -8,14 +8,14 @@
     }
     a {
       padding: 0.3em 0.8em;
-      color: white;
-      background-color: $red;
+      color: $red;
+      background-color: $white;
       margin-right: 0.2em;
       border: 0.15em solid $red;
       text-decoration: none;
       &.active, &:hover, &:focus {
-        color: $red;
-        background-color: $white;
+        color: $white;
+        background-color: $red;
       }
     }
   }

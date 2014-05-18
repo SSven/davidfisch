@@ -20,6 +20,21 @@
   <br><br>
   <h2>Do you have any questions? Feel free to contact me, i'm available for hire.</h2>
 </section>
+<section class="social-media">
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+</section>
+<section class="tags">
+  <p class="center">Tags</p>
+  <div class="tag-cloud">
+    <a href="#">Design <span class="counter">(5)</span></a>
+    <a href="#">Music <span class="counter">(2)</span></a>
+    <a href="#">Website <span class="counter">(9)</span></a>
+    <a href="#">Media & Entertainment <span class="counter">(1)</span></a>
+    <a href="#">Digital Products <span class="counter">(1)</span></a>
+    <a href="#">App <span class="counter">(4)</span></a>
+  </div>
+</section>
 <section class="next_project">
   <p class="center">View next project <br>⌵</p>
   <div class="next_project_picture">

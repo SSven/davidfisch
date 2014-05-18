@@ -1,12 +1,61 @@
 .showcase {
   background-image: url(../../images/music.jpg);
-  background-position: top left;
+  background-position: center left;
   background-size: cover;
   min-height: 20em;
   @include bp(mama-bear) {
-    min-height: 45em;
+    min-height: 25em;
+    height: 75%;
+    max-height: 45em;
   }
 }
+
+.social-media {
+  text-align: center;
+  margin: 3em 0;
+  a {
+    display: inline-block;
+    background-color: $red;
+    color: $white;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    border: 0.2em solid $red;
+    padding: 0.9em;
+    margin: 0 0.6em;
+    &:hover, &:focus {
+      color: $red;
+      background-color: transparent;
+    }
+  }
+  i {
+    font-size: 1.8em;
+  }
+}
+
+.tags {
+  border-top: 0.1em solid $grey;
+  margin-bottom: 4em;
+  @include bp(mama-bear) {
+    margin-bottom: 10em;
+  }
+}
+
+.tag-cloud {
+    max-width: 40em;
+    margin: 0 auto;
+    text-align: center;
+    a {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 1.5em;
+      padding: 0.3em;
+    }
+    .counter {
+      color: $red;
+      font-size: 1.1rem;
+    }
+  }
 
 .next_project_picture {
   display: block;
