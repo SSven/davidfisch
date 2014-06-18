@@ -18,9 +18,16 @@
     transition: width 0.15s ease;
     &.active {
       display: block;
-      width: 17.5em;
+      width: 16em;
+      @include bp(baby-bear) {
+        width: 17.5em;
+      }
       padding: 0.5em;
       a {
+        font-size: 0.95em;
+        @include bp(baby-bear) {
+          font-size: 1em;
+        }
         opacity: 1;
         transition: opacity 0.8s ease;
       }

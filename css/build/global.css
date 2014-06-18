@@ -1880,12 +1880,19 @@ img {
     transition: width 0.15s ease; }
     .menu-wrapper .menu.active {
       display: block;
-      width: 17.5em;
+      width: 16em;
       padding: 0.5em; }
+      @media (min-width: 650px) {
+        .menu-wrapper .menu.active {
+          width: 17.5em; } }
       .menu-wrapper .menu.active a {
+        font-size: 0.95em;
         opacity: 1;
         -webkit-transition: opacity 0.8s ease;
         transition: opacity 0.8s ease; }
+        @media (min-width: 650px) {
+          .menu-wrapper .menu.active a {
+            font-size: 1em; } }
     .menu-wrapper .menu li {
       float: left; }
     .menu-wrapper .menu a {
