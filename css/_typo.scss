@@ -7,15 +7,33 @@
 
 p {
   line-height: 1.5em;
-  font-size: 1.35em;
+  font-size: 1em;
+  @include bp(baby-bear) {
+    font-size: 1.1em;
+  }
+  @include bp(mama-bear) {
+    font-size: 1.35em;
+  }
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: 1.75em;
+  @include bp(baby-bear) {
+    font-size: 1.95em;
+  }
+  @include bp(mama-bear) {
+    font-size: 2.2em;
+  }
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.5em;
+  @include bp(baby-bear) {
+    font-size: 1.65em;
+  }
+  @include bp(mama-bear) {
+    font-size: 1.8em;
+  }
 }
 
 a {
@@ -30,14 +48,26 @@ a {
 }
 
 .headline {
-  font-size: 4em;
+  font-size: 2.5em;
+  @include bp(baby-bear) {
+    font-size: 3em;
+  }
+  @include bp(mama-bear) {
+    font-size: 4em;
+  }
   margin: 0;
   text-align: center;
 }
 
 .subheadline {
   font-weight: 300;
-  font-size: 1.8em;
+  font-size: 1.35em;
+  @include bp(baby-bear) {
+    font-size: 1.4em;
+  }
+  @include bp(mama-bear) {
+    font-size: 1.8em;
+  }
   text-align: center;
   margin: 0;
 }

@@ -48,7 +48,13 @@
     a {
       display: inline-block;
       text-decoration: none;
-      font-size: 1.5em;
+      font-size: 1em;
+      @include bp(baby-bear) {
+        font-size: 1.35em;
+      }
+      @include bp(mama-bear) {
+        font-size: 1.5em;
+      }
       padding: 0.3em;
     }
     .counter {

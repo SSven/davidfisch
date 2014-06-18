@@ -58,7 +58,13 @@
     }
     h2 {
       margin: 0;
-      font-size: 3em;
+      font-size: 1.8em;
+      // @include bp(baby-bear) {
+      //   font-size: 1.8em;
+      // }
+      @include bp(mama-bear) {
+        font-size: 3em;
+      }
       font-weight: 300;
     }
     a {
@@ -75,7 +81,13 @@
     }
     p {
       margin: 0;
-      font-size: 1.5em;
+      font-size: 1.1em;
+      // @include bp(baby-bear) {
+      //   font-size: 3em;
+      // }
+      @include bp(mama-bear) {
+        font-size: 1.5em;
+      }
     }
     &:hover {
       &:before {

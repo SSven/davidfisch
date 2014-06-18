@@ -1664,13 +1664,31 @@ table {
 
 p {
   line-height: 1.5em;
-  font-size: 1.35em; }
+  font-size: 1em; }
+  @media (min-width: 650px) {
+    p {
+      font-size: 1.1em; } }
+  @media (min-width: 1000px) {
+    p {
+      font-size: 1.35em; } }
 
 h1 {
-  font-size: 2.2em; }
+  font-size: 1.75em; }
+  @media (min-width: 650px) {
+    h1 {
+      font-size: 1.95em; } }
+  @media (min-width: 1000px) {
+    h1 {
+      font-size: 2.2em; } }
 
 h2 {
-  font-size: 1.8em; }
+  font-size: 1.5em; }
+  @media (min-width: 650px) {
+    h2 {
+      font-size: 1.65em; } }
+  @media (min-width: 1000px) {
+    h2 {
+      font-size: 1.8em; } }
 
 a {
   color: #222222; }
@@ -1681,15 +1699,27 @@ a {
   text-align: center; }
 
 .headline {
-  font-size: 4em;
+  font-size: 2.5em;
   margin: 0;
   text-align: center; }
+  @media (min-width: 650px) {
+    .headline {
+      font-size: 3em; } }
+  @media (min-width: 1000px) {
+    .headline {
+      font-size: 4em; } }
 
 .subheadline {
   font-weight: 300;
-  font-size: 1.8em;
+  font-size: 1.35em;
   text-align: center;
   margin: 0; }
+  @media (min-width: 650px) {
+    .subheadline {
+      font-size: 1.4em; } }
+  @media (min-width: 1000px) {
+    .subheadline {
+      font-size: 1.8em; } }
 
 .button {
   background: #ff4136;
@@ -1989,8 +2019,11 @@ img {
     color: #222222; }
   .work .module h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 1.8em;
     font-weight: 300; }
+    @media (min-width: 1000px) {
+      .work .module h2 {
+        font-size: 3em; } }
   .work .module a {
     position: relative;
     display: inline-block;
@@ -2006,7 +2039,10 @@ img {
     text-decoration: none; }
   .work .module p {
     margin: 0;
-    font-size: 1.5em; }
+    font-size: 1.1em; }
+    @media (min-width: 1000px) {
+      .work .module p {
+        font-size: 1.5em; } }
   .work .module:hover:before {
     opacity: 1; }
   .work .module:hover .content {
@@ -2057,8 +2093,14 @@ img {
   .tag-cloud a {
     display: inline-block;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 0.3em; }
+    @media (min-width: 650px) {
+      .tag-cloud a {
+        font-size: 1.35em; } }
+    @media (min-width: 1000px) {
+      .tag-cloud a {
+        font-size: 1.5em; } }
   .tag-cloud .counter {
     color: #ff4136;
     font-size: 1.1rem; }
