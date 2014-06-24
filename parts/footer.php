@@ -1,7 +1,7 @@
 <footer>
   <div class="stopper grid start">
     <div class="col-20">
-      <h3>Links</h3>
+      <h3>Navigation</h3>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Work</a></li>
@@ -28,7 +28,7 @@
       </ul>
     </div>
     <div class="col-100">
-      <p class="copyright">Copyright 2014 David Fuchs | <a href="#">Impressum</a></p>
+      <p class="copyright">Copyright 2014 David Fuchs | <a href="#">Imprint</a></p>
     </div>
   </div>
 </footer>
